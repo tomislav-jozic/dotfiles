@@ -106,3 +106,9 @@ export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 export PATH="/usr/local/opt/php@7.4/bin:$PATH"
 export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+
+
+autoload bashcompinit
+bashcompinit
+source /FULL/PATH/TO/wp-completion.bash
